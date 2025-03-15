@@ -1,7 +1,16 @@
 # Fiona e os 5 gatinhos de Botas
-Fe5GB - É um projeto para um restaurante que atende seus clientes alocando-os em mesas por meio de 'requisições por mesas'. No momento, o restaurante possui 10 mesas: 4 com capacidade para 4 pessoas, 4 com capacidade para 6 pessoas e 2 com capacidade para 8 pessoas. O cliente, ao chegar, deve declarar quantas pessoas comerão no restaurante, gerando assim uma requisição por mesa. Tão logo quanto possível deverá ser alocada uma mesa adequada para ele. Se não houver mesa livre, o cliente entra numa fila de espera. As requisições precisam registrar data e horas de entrada e saída do cliente.
 
-## Alunos integrantes da equipe
+Este é um projeto de refatoração de um sistema para alocação de clientes em mesas de restaurante. O sistema original foi desenvolvido na disciplina de Programação Modular e, nesta versão, passou por refatoração para incorporar padrões de projeto aprendidos na disciplina de Projeto de Software.
+
+### Descrição do Sistema
+
+O sistema aloca clientes em mesas de um restaurante com 10 mesas de diferentes capacidades (4, 6 e 8 pessoas). Os clientes informam a quantidade de pessoas na chegada, e o sistema aloca uma mesa ou coloca o cliente na fila de espera, se necessário. Cada requisição registra a data e hora de entrada e saída.
+
+### Alunos envolvidos no refatoramento
+
+* Lucas Giovine
+
+### Alunos envolvidos no projeto original
 
 * Maria Eduarda Ferraz
 * Albert Luís
@@ -10,7 +19,10 @@ Fe5GB - É um projeto para um restaurante que atende seus clientes alocando-os e
 * Thiago Cury
 * Vitor Rebula
 
-## Professor responsável 
+### Professor responsável pelo refatoramento
+
+* João Paulo Carneiro Aramuni
+
+### Professores responsáveis pelo projeto original
 
 * Danilo Boechat Seufitelli
-
