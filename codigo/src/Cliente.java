@@ -1,5 +1,5 @@
-
 public class Cliente {
+    
     private static int contadorClientes = 0;
     private int idCliente;
     private String nome;

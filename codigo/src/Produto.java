@@ -1,4 +1,5 @@
 public class Produto {
+    
     private static int contadorProdutos = 0;
     private String nome;
     private int idProduto;

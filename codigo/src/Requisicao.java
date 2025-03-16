@@ -1,18 +1,22 @@
+import java.time.LocalTime;
 
 public class Requisicao {
+    
     private static int contadorRequisicao = 0;
     private int idRequisicao;
     private Cliente cliente;
     private Mesa mesa;
     private Pedido pedido;
     private boolean status;
+    private LocalTime entrada;
+    private LocalTime saida;
 
-    public Requisicao(Cliente cliente) {
+    public Requisicao(Cliente cliente, LocalTime entrada) {
         this.idRequisicao = ++contadorRequisicao;
         this.cliente = cliente;
         this.status = false;
         this.pedido = new Pedido();
-
+        this.entrada = entrada;
     }
 
     public boolean getStatus() {
@@ -68,5 +72,7 @@ public class Requisicao {
         return this.pedido;
     }
 
-    // END CLASS
+    public LocalTime getEntrada() {
+        return this.entrada;
+    }
 }

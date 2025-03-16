@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        Restaurante restaurante = new Restaurante();
+        RestauranteFacade restaurante = new RestauranteFacade();
 
         // Menu
         Scanner scanner = new Scanner(System.in);
@@ -34,6 +34,8 @@ public class Main {
                         break;
                     case 3:
                         System.out.println("Saindo do programa...");
+                        scanner.close();
+                        restaurante.fecharScanner();
                         break;
                     case 4:
                         System.out.println("Consultando fila...\n");

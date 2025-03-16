@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Pedido {
+    
     private ArrayList<ItemProduto> produtos = new ArrayList<ItemProduto>();
 
     private static double TAXA = 1.1;

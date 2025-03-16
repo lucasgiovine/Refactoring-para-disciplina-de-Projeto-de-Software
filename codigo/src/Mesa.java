@@ -1,5 +1,5 @@
-
 public class Mesa {
+    
     private static int contadorMesa = 0;
     private int idMesa;
     private int capacidade;
