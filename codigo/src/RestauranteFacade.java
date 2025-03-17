@@ -1,5 +1,7 @@
 import java.time.LocalTime;
 
+//Refactoring the project to follow the Facade architectural pattern.
+
 public class RestauranteFacade {
 
     private final MesaManager mesaManager;
@@ -18,8 +20,7 @@ public class RestauranteFacade {
 
     // FAZER REQUISIÇÃO
     public void fazerRequisicao() {
-        this.entrada = LocalTime.now();
-        reqManager.fazerRequisicao(entrada);
+        reqManager.fazerRequisicao(LocalTime.now());
     }
 
     // ADICIONA NA FILA DE ESPERA
